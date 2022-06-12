@@ -1,0 +1,16 @@
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\bin\Debug\ScheduleViewer.exe.config
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\bin\Debug\ScheduleViewer.exe
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\bin\Debug\ScheduleViewer.pdb
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer.csproj.AssemblyReference.cache
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\MainWindow.g.cs
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\App.g.cs
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer_MarkupCompile.cache
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer_MarkupCompile.lref
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\MainWindow.baml
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer.g.resources
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer.Properties.Resources.resources
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer.csproj.GenerateResource.cache
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer.csproj.CoreCompileInputs.cache
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer.exe
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer.pdb
