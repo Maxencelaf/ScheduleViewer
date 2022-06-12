@@ -68,6 +68,8 @@
             <Border BorderBrush="{StaticResource brush}" BorderThickness="1" Grid.Row="0" Grid.Column="4" Grid.RowSpan="21"/>
             <Border BorderBrush="{StaticResource brush}" BorderThickness="1" Grid.Row="0" Grid.Column="5" Grid.RowSpan="21"/>
 
+            <!--<Button x:Name="nextWindowButton" Content="Open Window" Grid.Row="3" Grid.Column="2" Click="nextWindowButton_Click"/>-->
+
 
             <!--<Label Content="08:00&#x0a;09:00" Grid.Row="1" HorizontalAlignment="Center"/>-->
             <Grid Grid.Row="1">

@@ -10,25 +10,24 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace ScheduleViewer
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for FirstWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FirstWindow : Window
     {
-        public MainWindow()
+        public FirstWindow()
         {
             InitializeComponent();
         }
 
-        private void nextWindowButton_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Window FirstWindow = new Window();
-            FirstWindow.Show();
+            MainWindow mainWindow1 = new MainWindow();
+            mainWindow1.Show();
         }
     }
 }

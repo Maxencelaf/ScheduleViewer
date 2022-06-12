@@ -14,3 +14,5 @@ C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\Schedul
 C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer.csproj.CoreCompileInputs.cache
 C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer.exe
 C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\ScheduleViewer.pdb
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\FirstWindow.g.cs
+C:\Users\Maxencelaf\source\repos\ScheduleViewer\ScheduleViewer\obj\Debug\FirstWindow.baml

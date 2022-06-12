@@ -5,8 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ScheduleViewer"
         mc:Ignorable="d"
-        Title="FirstWindow" Height="450" Width="800">
+        Title="FirstWindow" Height="400" Width="300">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Création Horaire de cours" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" FontSize="20"/>
+        <Label Content="Nom du cours:" Grid.Row="1" />
+        <TextBox x:Name="nomCoursTextBox" Grid.Row="1" Grid.Column="1" />
+        <Label Content="Heure Début:" Grid.Row="2" />
+        <ComboBox Grid.Row="2" Grid.Column="1">
+            <ComboBoxItem Content="8:00"/>
+        </ComboBox>
+        <ComboBox Grid.Row="3" Grid.Column="1">
+            <ComboBoxItem Content="9:00"/>
+        </ComboBox>
+        <Label Content="Heure Fin:" Grid.Row="3" />
+        <Button Content="Generate" Grid.Row="9" Grid.Column="1" Margin="60,5,5,5" Click="Button_Click"/>
         
     </Grid>
 </Window>
