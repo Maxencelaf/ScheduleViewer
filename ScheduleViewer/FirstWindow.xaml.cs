@@ -24,6 +24,17 @@ namespace ScheduleViewer
             InitializeComponent();
         }
 
+        public void CreatingBlock(int row1, int col1, string color, string content)
+        {
+            //Add RowSpan
+            //Add Column Span
+            Label label = new Label();
+            label.SetValue(Grid.RowProperty, row1);
+            label.SetValue(Grid.ColumnProperty, col1);
+            label.SetValue(BackgroundProperty, color);
+            label.Content = content;
+        }
+
         private void Button_Click_Generate(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow1 = new MainWindow();

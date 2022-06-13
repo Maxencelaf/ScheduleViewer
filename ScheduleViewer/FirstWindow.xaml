@@ -36,7 +36,7 @@
             <ComboBoxItem Content="Vendredi"/>
         </ComboBox>
         <Label Content="Heure Début:" Grid.Row="3" />
-        <ComboBox Grid.Row="3" Grid.Column="1">
+        <ComboBox x:Name="comboDebut" Grid.Row="3" Grid.Column="1">
             <ComboBoxItem Content="8:00"/>
             <ComboBoxItem Content="8:30"/>
             <ComboBoxItem Content="9:00"/>
