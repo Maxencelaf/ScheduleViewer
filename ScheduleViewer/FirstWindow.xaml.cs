@@ -24,10 +24,32 @@ namespace ScheduleViewer
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_Generate(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow1 = new MainWindow();
             mainWindow1.Show();
+        }
+
+        private void Button_Click_Ajouter(object sender, RoutedEventArgs e)
+        {
+            if (nomCoursTextBox.Text.StartsWith(" ") || nomCoursTextBox.Text == "")
+            {
+                nomCoursTextBox.Text = "";
+            }
+            else
+            {
+                coursAjouteText.Text += nomCoursTextBox.Text + "\n";
+                nomCoursTextBox.Text = "";
+            }
+            
+        }
+
+        private void nomCoursTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                Button_Click_Ajouter(sender, e);
+            }
         }
     }
 }
