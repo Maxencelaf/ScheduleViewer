@@ -22,17 +22,20 @@ namespace ScheduleViewer
         public FirstWindow()
         {
             InitializeComponent();
+            Label newlabel = new Label();
+            newlabel.SetValue(MainWindow.ContentProperty, CreatingBlock(2, 2, "Green", "Circuits"));
         }
 
-        public void CreatingBlock(int row1, int col1, string color, string content)
+        public Label CreatingBlock(int row1, int col1, string color, string content)
         {
-            //Add RowSpan
             //Add Column Span
             Label label = new Label();
-            label.SetValue(Grid.RowProperty, row1);
-            label.SetValue(Grid.ColumnProperty, col1);
-            label.SetValue(BackgroundProperty, color);
+            label.SetValue(Grid.RowProperty, row1.ToString());
+            label.SetValue(Grid.ColumnProperty, col1.ToString());
+            label.SetValue(Grid.ColumnSpanProperty, 2);
+            label.SetValue(BackgroundProperty, color.ToString());
             label.Content = content;
+            return label;
         }
 
         private void Button_Click_Generate(object sender, RoutedEventArgs e)

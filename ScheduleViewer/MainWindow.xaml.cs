@@ -24,11 +24,5 @@ namespace ScheduleViewer
         {
             InitializeComponent();
         }
-
-        private void nextWindowButton_Click(object sender, RoutedEventArgs e)
-        {
-            Window FirstWindow = new Window();
-            FirstWindow.Show();
-        }
     }
 }
